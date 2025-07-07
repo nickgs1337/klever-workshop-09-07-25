@@ -1,0 +1,379 @@
+/* Klever-inspired Slidev Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Klever Color Palette */
+  --klever-dark: #111111;
+  --klever-darker: #0a0a0a;
+  --klever-purple: #AA33B5;
+  --klever-purple-light: #C14EC9;
+  --klever-cyan: #33D7FF;
+  --klever-blue: #2563EB;
+  --klever-gradient: linear-gradient(135deg, #AA33B5 0%, #2563EB 100%);
+  --klever-gradient-subtle: linear-gradient(135deg, rgba(170, 51, 181, 0.1) 0%, rgba(37, 99, 235, 0.1) 100%);
+  
+  /* Text Colors */
+  --klever-text-primary: #FFFFFF;
+  --klever-text-secondary: #A1A1AA;
+  --klever-text-accent: #AA33B5;
+  
+  /* Background Colors */
+  --klever-bg-primary: #111111;
+  --klever-bg-secondary: #1A1A1A;
+  --klever-bg-card: #1F1F1F;
+  
+  /* Borders and Shadows */
+  --klever-border: #333333;
+  --klever-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --klever-glow: 0 0 20px rgba(170, 51, 181, 0.3);
+}
+
+/* Global Styles */
+.slidev-layout {
+  background: var(--klever-bg-primary);
+  color: var(--klever-text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--klever-text-primary);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: var(--klever-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--klever-text-primary);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--klever-purple-light);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  color: var(--klever-text-secondary);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+strong {
+  color: var(--klever-text-primary);
+  font-weight: 600;
+}
+
+/* Code Blocks */
+code {
+  background: var(--klever-bg-card);
+  color: var(--klever-cyan);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  border: 1px solid var(--klever-border);
+}
+
+pre {
+  background: var(--klever-bg-card) !important;
+  border: 1px solid var(--klever-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  overflow-x: auto;
+  box-shadow: var(--klever-shadow);
+}
+
+/* Cards and Containers */
+.bg-blue-50, .bg-green-50, .bg-purple-50, .bg-orange-50, .bg-yellow-50, .bg-gray-50 {
+  background: var(--klever-bg-card) !important;
+  border: 1px solid var(--klever-border);
+  border-radius: 0.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-blue-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--klever-blue);
+}
+
+.bg-green-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #10B981;
+}
+
+.bg-purple-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--klever-purple);
+}
+
+.bg-orange-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #F59E0B;
+}
+
+.bg-yellow-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #EAB308;
+}
+
+.bg-gray-50::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--klever-border);
+}
+
+/* Text Colors Override */
+.text-blue-600, .text-blue-800 {
+  color: var(--klever-blue) !important;
+}
+
+.text-green-600, .text-green-800 {
+  color: #10B981 !important;
+}
+
+.text-purple-600, .text-purple-800 {
+  color: var(--klever-purple) !important;
+}
+
+.text-orange-600, .text-orange-800 {
+  color: #F59E0B !important;
+}
+
+.text-yellow-600, .text-yellow-800 {
+  color: #EAB308 !important;
+}
+
+.text-red-600 {
+  color: #EF4444 !important;
+}
+
+.text-gray-600 {
+  color: var(--klever-text-secondary) !important;
+}
+
+.text-gray-500 {
+  color: #6B7280 !important;
+}
+
+/* Buttons and Interactive Elements */
+button {
+  background: var(--klever-gradient);
+  color: var(--klever-text-primary);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--klever-glow);
+}
+
+/* Navigation */
+.slidev-nav {
+  background: rgba(17, 17, 17, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--klever-border);
+}
+
+.slidev-nav button {
+  color: var(--klever-text-secondary);
+  background: transparent;
+  border: 1px solid var(--klever-border);
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.slidev-nav button:hover {
+  color: var(--klever-text-primary);
+  background: var(--klever-bg-card);
+  border-color: var(--klever-purple);
+}
+
+/* Layout Specific Styles */
+.slidev-layout.center {
+  background: radial-gradient(ellipse at center, rgba(170, 51, 181, 0.1) 0%, var(--klever-bg-primary) 70%);
+}
+
+.slidev-layout.cover {
+  background: var(--klever-gradient);
+  color: var(--klever-text-primary);
+}
+
+.slidev-layout.section {
+  background: var(--klever-gradient-subtle);
+  border-left: 4px solid var(--klever-purple);
+  padding-left: 2rem;
+}
+
+.slidev-layout.end {
+  background: var(--klever-gradient);
+  color: var(--klever-text-primary);
+}
+
+/* Special Elements */
+.grid {
+  gap: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.rounded-full {
+  box-shadow: var(--klever-glow);
+}
+
+/* Animations */
+@keyframes klever-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse {
+  animation: klever-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Slide Transitions */
+.slidev-page-enter-active,
+.slidev-page-leave-active {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slidev-page-enter-from {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.slidev-page-leave-to {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+/* Progress Bar */
+.slidev-progress {
+  background: var(--klever-gradient) !important;
+  height: 3px !important;
+}
+
+/* Custom utility classes */
+.klever-card {
+  background: var(--klever-bg-card);
+  border: 1px solid var(--klever-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--klever-shadow);
+  transition: all 0.3s ease;
+}
+
+.klever-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--klever-glow);
+}
+
+.klever-gradient-text {
+  background: var(--klever-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.klever-accent {
+  color: var(--klever-purple);
+}
+
+/* Lists */
+ul, ol {
+  color: var(--klever-text-secondary);
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: var(--klever-purple);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--klever-purple-light);
+}
+
+/* Selection */
+::selection {
+  background: var(--klever-purple);
+  color: var(--klever-text-primary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--klever-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--klever-purple);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--klever-purple-light);
+}
