@@ -3,7 +3,7 @@ theme: default
 title: 'Workshop Web3 - Klever'
 titleTemplate: '%s - Descobrindo o Futuro da Web'
 author: 'Klever Team'
-keywords: 'web3,blockchain,klever,smart contracts,rust,multiversx'
+keywords: 'web3,blockchain,klever,smart contracts,rust,kvm'
 presenter: true
 drawings:
   enabled: true
@@ -319,19 +319,33 @@ layout: center
 
 # Carteiras e Chaves
 
-## Chave Privada
-- Secreta e única
-- Assina transações
-- NUNCA compartilhar
-- Controla os fundos
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="bg-blue-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-blue-800 mb-2">🔐 Chave Privada</div>
+    <div class="text-sm text-gray-600">
+      • Secreta e única<br/>
+      • Assina transações<br/>
+      • NUNCA compartilhe<br/>
+      • Controla os fundos
+    </div>
+  </div>
+  
+  <div class="bg-green-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-green-800 mb-2">🔑 Chave Pública</div>
+    <div class="text-sm text-gray-600">
+      • Derivada da privada<br/>
+      • Gera o endereço<br/>
+      • Pode ser compartilhada<br/>
+      • Recebe fundos
+    </div>
+  </div>
+</div>
 
-## Chave Pública
-- Derivada da privada
-- Gera o endereço
-- Pode ser compartilhada
-- Recebe fundos
-
-**🚨 Sua chave privada = Sua responsabilidade**
+<div class="text-center mt-6">
+  <div class="text-xl font-bold text-red-600">
+    🚨 Sua chave privada = Sua responsabilidade
+  </div>
+</div>
 
 ---
 layout: center
@@ -341,7 +355,7 @@ layout: center
 
 <div class="grid grid-cols-2 gap-8 mt-8">
   <div class="bg-yellow-50 p-6 rounded-lg">
-    <div class="text-2xl mb-4">🪙</div>
+    <div class="text-2xl mb-4">💲</div>
     <div class="text-lg font-bold text-yellow-800 mb-2">Criptomoedas</div>
     <div class="text-sm text-gray-600">
       • Blockchain própria<br/>
@@ -428,7 +442,7 @@ layout: center
     <div class="text-2xl mb-2">🏛️</div>
     <div class="text-lg font-bold text-green-800">Governance</div>
     <div class="text-sm text-gray-600 space-y-1">
-      <div>• AAVE (Aave)</div>
+      <div>• KFI (Klever)</div>
       <div>• COMP (Compound)</div>
       <div>• MKR (MakerDAO)</div>
     </div>
@@ -648,7 +662,7 @@ layout: center
 
 # Linguagens para Web3
 
-<div class="grid grid-cols-3 gap-6 mt-8">
+<div class="grid grid-cols-2 gap-6 mt-8">
   <div class="bg-orange-50 p-4 rounded-lg text-center">
     <div class="text-2xl mb-2">🦀</div>
     <div class="text-lg font-bold text-orange-800">Rust</div>
@@ -660,55 +674,51 @@ layout: center
     <div class="text-lg font-bold text-blue-800">Solidity</div>
     <div class="text-sm text-gray-600">Ethereum padrão</div>
   </div>
-  
-  <div class="bg-green-50 p-4 rounded-lg text-center">
-    <div class="text-2xl mb-2">🐍</div>
-    <div class="text-lg font-bold text-green-800">Python</div>
-    <div class="text-sm text-gray-600">Desenvolvimento rápido</div>
-  </div>
 </div>
 
 <div class="text-center mt-8">
   <div class="text-lg font-bold text-orange-600">
-    🎯 Foco no Rust para MultiverseX
+    🎯 Foco no Rust para KVM
   </div>
 </div>
 
 ---
-layout: default
+layout: center
 ---
 
-# MultiverseX Framework
+# KVM Framework
 
-<v-click>
-
-## 🚀 Por que MultiverseX?
-- Framework completo em Rust
-- Documentação extensiva
-- Comunidade ativa
-- Ferramentas integradas
-
-</v-click>
-
-<v-click>
-
-## 🛠️ Recursos Principais
-- Smart contracts em Rust
-- Framework de testes
-- Serialização de dados
-- Interação com blockchain
-
-</v-click>
-
-<v-click>
-
-## 📚 Aprendizado
-- Tutorial de crowdfunding
-- Exemplos práticos
-- Extensão VSCode
-- Debugging avançado
-
-</v-click>
+<div class="grid grid-cols-3 gap-6 mt-8">
+  <div class="bg-blue-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-blue-800 mb-2">🚀 Por que KVM?</div>
+    <div class="text-sm text-gray-600">
+      • Framework completo em Rust<br/>
+      • Documentação extensiva<br/>
+      • Comunidade ativa<br/>
+      • Ferramentas integradas
+    </div>
+  </div>
+  
+  <div class="bg-green-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-green-800 mb-2">🛠️ Recursos Principais</div>
+    <div class="text-sm text-gray-600">
+      • Smart contracts em Rust<br/>
+      • Framework de testes<br/>
+      • Serialização de dados<br/>
+      • Interação com blockchain
+    </div>
+  </div>
+  
+  <div class="bg-purple-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-purple-800 mb-2">📚 Aprendizado</div>
+    <div class="text-sm text-gray-600">
+      • Tutorial de crowdfunding<br/>
+      • Exemplos práticos<br/>
+      • Extensão VSCode<br/>
+      • Debugging avançado
+    </div>
+  </div>
+</div>
 
 ---
 layout: center
@@ -734,7 +744,7 @@ layout: center
     </div>
     <div class="space-y-4">
       <div class="bg-green-50 p-4 rounded-lg">
-        <div class="text-lg font-bold text-green-800">3. MultiverseX SDK</div>
+        <div class="text-lg font-bold text-green-800">3. KVM SDK</div>
         <div class="text-sm text-gray-600">Framework completo</div>
       </div>
       <div class="bg-purple-50 p-4 rounded-lg">
@@ -751,17 +761,22 @@ layout: center
 
 # Primeiro Smart Contract
 
-```rust {1-5|7-12|14-18|all}
-use multiversx_sc::derive_imports::*;
+```rust {all|1-3|5-6|7-8|10-11|13-16|all}
+#![no_std]
 
-#[multiversx_sc::contract]
-pub trait HelloWorld {
+use klever_sc::imports::*;
+
+#[klever_sc::contract]
+pub trait HelloWorld: ContractBase {
     #[init]
     fn init(&self) {}
 
+    #[event("message")]
+    fn message(&self, msg: &str);
+
     #[endpoint]
-    fn hello(&self) -> &'static str {
-        "Hello, World!"
+    fn send_message(&self) {
+        self.message("Hello World!");
     }
 }
 ```
@@ -778,20 +793,28 @@ layout: center
 
 # Estrutura de um Projeto
 
-## 📁 Arquivos Principais
-
-**my-contract/**
-- **src/lib.rs** - Código principal do contrato
-- **Cargo.toml** - Dependências Rust
-- **multiversx.json** - Configuração do projeto
-- **tests/** - Testes unitários
-
-## 🔧 Funcionalidade
-
-- **src/lib.rs**: Lógica do smart contract
-- **Cargo.toml**: Gerenciamento de dependências
-- **multiversx.json**: Configurações específicas
-- **tests/**: Validação e testes
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="bg-blue-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-blue-800 mb-2">📁 Arquivos Principais</div>
+    <div class="text-sm text-gray-600">
+      <div class="font-bold mb-2">my-contract/</div>
+      • <strong>src/lib.rs</strong> - Código principal do contrato<br/>
+      • <strong>Cargo.toml</strong> - Dependências Rust<br/>
+      • <strong>kleverkapp.json</strong> - Configuração do projeto<br/>
+      • <strong>tests/</strong> - Testes unitários
+    </div>
+  </div>
+  
+  <div class="bg-green-50 p-4 rounded-lg">
+    <div class="text-lg font-bold text-green-800 mb-2">🔧 Funcionalidade</div>
+    <div class="text-sm text-gray-600">
+      • <strong>src/lib.rs</strong>: Lógica do smart contract<br/>
+      • <strong>Cargo.toml</strong>: Gerenciamento de dependências<br/>
+      • <strong>kleverkapp.json</strong>: Configurações específicas<br/>
+      • <strong>tests/</strong>: Validação e testes
+    </div>
+  </div>
+</div>
 
 ---
 layout: center
@@ -800,7 +823,7 @@ layout: center
 # Armazenamento de Dados
 
 ```rust {1-8|10-15|17-22|all}
-#[multiversx_sc::contract]
+#[klever_sc::contract]
 pub trait Counter {
     #[view(getCount)]
     #[storage_mapper("count")]
@@ -831,7 +854,7 @@ layout: center
 # Interação com Tokens
 
 ```rust {1-10|12-18|20-25|all}
-#[multiversx_sc::contract]
+#[klever_sc::contract]
 pub trait TokenContract {
     #[payable("KLV")]
     #[endpoint]
@@ -865,7 +888,7 @@ layout: center
 #[cfg(test)]
 mod tests {
     use super::*;
-    use multiversx_sc_scenario::*;
+    use klever_sc_scenario::*;
 
     #[test]
     fn test_increment() {
@@ -1127,7 +1150,7 @@ layout: center
       <div class="bg-green-50 p-4 rounded-lg">
         <div class="text-lg font-bold text-green-800">⚡ Ferramentas</div>
         <div class="text-sm text-gray-600">
-          • MultiverseX SDK<br/>
+          • KVM SDK<br/>
           • Templates prontos<br/>
           • Documentação rápida<br/>
           • Mentores disponíveis
@@ -1223,7 +1246,7 @@ layout: center
     <div class="bg-blue-50 p-4 rounded-lg">
       <div class="text-lg font-bold text-blue-800">📚 Continuando o Aprendizado</div>
       <div class="text-sm text-gray-600">
-        • Documentação MultiverseX<br/>
+        • Documentação KVM<br/>
         • Comunidade Discord<br/>
         • Tutoriais avançados<br/>
         • Projetos open source
