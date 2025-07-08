@@ -50,6 +50,50 @@ class: text-center
 </div>
 
 ---
+layout: center
+---
+
+# 🤝 Vamos nos Conhecer!
+
+<div class="space-y-6 mt-8">
+  <div class="text-lg">
+  <v-click>
+  
+  ## 💭 Pergunta Interativa #1
+  **"O que você já sabe sobre blockchain?"**
+  
+  <div class="text-sm text-gray-600 mt-2">
+    *Compartilhe em uma palavra ou frase curta*
+  </div>
+  
+  </v-click>
+  </div>
+  
+  <div class="text-lg">
+  <v-click>
+  
+  ## 🎯 Pergunta Interativa #2
+  **"O que você espera aprender neste workshop?"**
+  
+  <div class="text-sm text-gray-600 mt-2">
+    *Suas expectativas nos ajudam a personalizar a experiência*
+  </div>
+  
+  </v-click>
+  </div>
+</div>
+
+<div class="text-center mt-8">
+  <v-click>
+  
+  <div class="text-lg font-bold klever-gradient-text">
+    🚀 Vamos construir o futuro juntos!
+  </div>
+  
+  </v-click>
+</div>
+
+---
 layout: default
 ---
 
@@ -351,6 +395,93 @@ layout: center
 layout: center
 ---
 
+# 🔍 Desmistificando a Blockchain
+
+<div class="text-center mb-6">
+  <div class="text-lg font-bold text-purple-600">Mitos vs. Verdades</div>
+</div>
+
+<div class="mx-8 space-y-4">
+  <div class="bg-gray-50 p-4 rounded-lg">
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <div class="text-base font-bold text-red-800">❌ "Só para criminosos"</div>
+      </div>
+      <div>
+        <div class="text-base font-bold text-green-800">✅ Transparente e auditável</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-gray-50 p-4 rounded-lg">
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <div class="text-base font-bold text-red-800">❌ "Impossível ser hackeado"</div>
+      </div>
+      <div>
+        <div class="text-base font-bold text-green-800">✅ Seguro, mas depende do usuário</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-gray-50 p-4 rounded-lg">
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <div class="text-base font-bold text-red-800">❌ "É só sobre dinheiro"</div>
+      </div>
+      <div>
+        <div class="text-base font-bold text-green-800">✅ Múltiplas aplicações</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-6">
+  <div class="text-sm text-gray-600">
+    💡 Logística • Saúde • Identidade • Arte • Jogos
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 💬 Momento Interativo
+
+<div class="text-center space-y-6 mt-8">
+  <div class="text-2xl font-bold text-blue-600">
+    ❓ Alguma dúvida sobre esses mitos?
+  </div>
+  
+  <div class="text-lg">
+  <v-click>
+  
+  ## 🗣️ Sua vez de perguntar!
+  
+  <div class="text-sm text-gray-600 mt-4">
+    • Você já ouviu algum desses mitos?<br/>
+    • Há outros mal-entendidos que gostaria de esclarecer?<br/>
+    • Algum conceito precisa ser mais explicado?
+  </div>
+  
+  </v-click>
+  </div>
+  
+  <div class="text-center mt-8">
+  <v-click>
+  
+  <div class="text-lg font-bold klever-gradient-text">
+    🚀 Vamos continuar construindo conhecimento juntos!
+  </div>
+  
+  </v-click>
+  </div>
+</div>
+
+---
+layout: center
+---
+
 # Tokens vs Moedas
 
 <div class="grid grid-cols-2 gap-8 mt-8">
@@ -488,6 +619,43 @@ layout: center
       <div>• LTC (Litecoin)</div>
       <div>• KLV (Klever)</div>
     </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 💬 Momento Interativo - Tokens
+
+<div class="text-center space-y-6 mt-8">
+  <div class="text-2xl font-bold text-blue-600">
+    🔄 Pausa para Dúvidas
+  </div>
+  
+  <div class="text-lg">
+    <v-click>
+
+## 🗣️ Perguntas sobre Tokens
+
+<div class="text-sm text-gray-600 mt-4">
+  • Ficou claro a diferença entre moedas e tokens?<br/>
+  • Alguma dúvida sobre os tipos de tokens?<br/>
+  • Querem exemplos específicos de algum tipo?<br/>
+  • Como identificar um bom projeto de token?
+</div>
+
+</v-click>
+  </div>
+  
+  <div class="text-center mt-8">
+  <v-click>
+  
+  <div class="text-lg font-bold klever-gradient-text">
+    💡 Vamos esclarecer tudo antes de ver o mercado!
+  </div>
+  
+  </v-click>
   </div>
 </div>
 
@@ -655,6 +823,368 @@ layout: section
 
 # <GradientText>Dia 2: Desenvolvimento</GradientText>
 Construindo no Web3
+
+---
+layout: center
+---
+
+# 📱 Explorando a Klever Wallet
+
+<div class="text-center mb-8">
+  <div class="text-xl font-bold text-blue-600">
+    Demonstração Prática
+  </div>
+  <div class="text-sm text-gray-600">
+    Sua porta de entrada para o mundo Web3
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="space-y-4">
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-blue-800">🔧 Recursos Principais</div>
+      <div class="text-sm text-gray-600">
+        • Múltiplas criptomoedas<br/>
+        • Interface intuitiva<br/>
+        • Segurança avançada<br/>
+        • Staking integrado
+      </div>
+    </div>
+    <div class="bg-green-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-green-800">📊 Funcionalidades</div>
+      <div class="text-sm text-gray-600">
+        • Enviar e receber<br/>
+        • Histórico de transações<br/>
+        • Conversão de moedas<br/>
+        • Backup seguro
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-purple-50 p-6 rounded-lg">
+    <div class="text-lg font-bold text-purple-800 mb-4">💡 Demonstração ao Vivo</div>
+    <div class="text-sm text-gray-600 space-y-2">
+      <div>1. 📱 Abrindo a Klever Wallet</div>
+      <div>2. 👀 Navegando pela interface</div>
+      <div>3. 💰 Visualizando saldos</div>
+      <div>4. 📜 Histórico de transações</div>
+      <div>5. 🔐 Configurações de segurança</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 🔐 Chaves e Segurança na Prática
+
+<div class="text-center mb-8">
+  <div class="text-xl font-bold text-red-600">
+    Conceitos Fundamentais de Segurança
+  </div>
+</div>
+
+<div class="grid grid-cols-3 gap-6 mt-8">
+  <div class="bg-blue-50 p-4 rounded-lg text-center">
+    <div class="text-2xl mb-2">🔑</div>
+    <div class="text-lg font-bold text-blue-800">Chave Privada</div>
+    <div class="text-sm text-gray-600 mt-2">
+      • Nunca compartilhe<br/>
+      • Controla seus fundos<br/>
+      • Assinatura digital
+    </div>
+  </div>
+  
+  <div class="bg-green-50 p-4 rounded-lg text-center">
+    <div class="text-2xl mb-2">🏷️</div>
+    <div class="text-lg font-bold text-green-800">Chave Pública</div>
+    <div class="text-sm text-gray-600 mt-2">
+      • Pode ser compartilhada<br/>
+      • Gera seu endereço<br/>
+      • Recebe transações
+    </div>
+  </div>
+  
+  <div class="bg-purple-50 p-4 rounded-lg text-center">
+    <div class="text-2xl mb-2">📝</div>
+    <div class="text-lg font-bold text-purple-800">Seed Phrase</div>
+    <div class="text-sm text-gray-600 mt-2">
+      • 12-24 palavras<br/>
+      • Backup da carteira<br/>
+      • Guarde offline
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-8">
+  <div class="text-lg font-bold text-red-600">
+    ⚠️ Demonstração: Como ver sua seed phrase na Klever Wallet
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 💸 Realizando uma Transação
+
+<div class="text-center mb-8">
+  <div class="text-xl font-bold text-green-600">
+    Passo a Passo Prático
+  </div>
+  <div class="text-sm text-gray-600">
+    Enviando KLV na prática
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="space-y-4">
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-blue-800">📋 Pré-requisitos</div>
+      <div class="text-sm text-gray-600">
+        • Saldo suficiente<br/>
+        • Endereço destinatário<br/>
+        • Verificar taxa de rede<br/>
+        • Confirmar todos os dados
+      </div>
+    </div>
+    <div class="bg-green-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-green-800">🔄 Processo</div>
+      <div class="text-sm text-gray-600">
+        • Selecionar "Enviar"<br/>
+        • Inserir endereço<br/>
+        • Definir valor<br/>
+        • Revisar e confirmar
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-orange-50 p-6 rounded-lg">
+    <div class="text-lg font-bold text-orange-800 mb-4">🎯 Demonstração ao Vivo</div>
+    <div class="text-sm text-gray-600 space-y-2">
+      <div>1. 🎯 Acessar função "Enviar"</div>
+      <div>2. 📝 Inserir endereço do destinatário</div>
+      <div>3. 💰 Definir valor a enviar</div>
+      <div>4. 🔍 Revisar taxa de rede</div>
+      <div>5. ✅ Confirmar transação</div>
+      <div>6. 📱 Acompanhar status</div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-8">
+  <div class="text-lg font-bold text-purple-600">
+    💡 Vamos fazer uma transação de teste juntos!
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 💬 Momento Interativo - Wallet
+
+<div class="text-center space-y-6 mt-8">
+  <div class="text-2xl font-bold text-blue-600">
+    🗣️ Perguntas sobre Carteiras
+  </div>
+  
+  <div class="grid grid-cols-2 gap-8">
+    <div class="space-y-4">
+      <div class="bg-blue-50 p-4 rounded-lg">
+        <div class="text-lg font-bold text-blue-800">❓ Dúvidas Técnicas</div>
+        <div class="text-sm text-gray-600">
+          • Como criar uma carteira?<br/>
+          • Diferenças entre carteiras?<br/>
+          • Como importar/exportar?<br/>
+          • Problemas de acesso?
+        </div>
+      </div>
+    </div>
+    <div class="space-y-4">
+      <div class="bg-green-50 p-4 rounded-lg">
+        <div class="text-lg font-bold text-green-800">🔐 Segurança</div>
+        <div class="text-sm text-gray-600">
+          • Melhores práticas?<br/>
+          • Como guardar seed phrase?<br/>
+          • Autenticação 2FA?<br/>
+          • Dispositivos seguros?
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8">
+    <div class="text-lg font-bold klever-gradient-text">
+      🚀 Vamos esclarecer tudo antes de continuar!
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 🛡️ Segurança em Cripto - Melhores Práticas
+
+<div class="text-center mb-8">
+  <div class="text-xl font-bold text-red-600">
+    Protegendo Seus Ativos Digitais
+  </div>
+  <div class="text-sm text-gray-600">
+    Dicas essenciais para evitar perdas
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="space-y-4">
+    <div class="bg-gray-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-red-800">🚫 NUNCA Faça</div>
+      <div class="text-sm text-gray-600">
+        • Compartilhar seed phrase<br/>
+        • Clicar em links suspeitos<br/>
+        • Enviar para endereços não verificados<br/>
+        • Usar WiFi público para transações<br/>
+        • Guardar senhas no navegador
+      </div>
+    </div>
+    <div class="bg-green-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-green-800">✅ SEMPRE Faça</div>
+      <div class="text-sm text-gray-600">
+        • Verificar endereços duas vezes<br/>
+        • Usar autenticação 2FA<br/>
+        • Manter backup offline da seed<br/>
+        • Verificar URLs oficiais<br/>
+        • Atualizar aplicativos regularmente
+      </div>
+    </div>
+  </div>
+  
+  <div class="space-y-4">
+    <div class="bg-orange-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-orange-800">⚠️ Golpes Comuns</div>
+      <div class="text-sm text-gray-600">
+        • Phishing (sites falsos)<br/>
+        • Esquemas Ponzi<br/>
+        • Suporte falso<br/>
+        • "Oportunidades" urgentes<br/>
+        • Carteiras comprometidas
+      </div>
+    </div>
+    <div class="bg-purple-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-purple-800">🔐 Backup Seguro</div>
+      <div class="text-sm text-gray-600">
+        • Escrever em papel<br/>
+        • Guardar em local seguro<br/>
+        • Múltiplas cópias<br/>
+        • Nunca fotografar<br/>
+        • Testar restore periodicamente
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 🔍 Explorando o KleverScan
+
+<div class="text-center mb-8">
+  <div class="text-xl font-bold text-blue-600">
+    Rastreando Transações na Blockchain
+  </div>
+  <div class="text-sm text-gray-600">
+    O explorador oficial da KleverChain
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="space-y-4">
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-blue-800">🔍 O que Consultar</div>
+      <div class="text-sm text-gray-600">
+        • Hash de transações<br/>
+        • Endereços de carteiras<br/>
+        • Detalhes de blocos<br/>
+        • Histórico de transfers<br/>
+        • Status de validações
+      </div>
+    </div>
+    <div class="bg-green-50 p-4 rounded-lg">
+      <div class="text-lg font-bold text-green-800">📊 Informações Disponíveis</div>
+      <div class="text-sm text-gray-600">
+        • Data e hora da transação<br/>
+        • Valor transferido<br/>
+        • Taxa de rede paga<br/>
+        • Confirmações recebidas<br/>
+        • Endereços origem/destino
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-purple-50 p-6 rounded-lg">
+    <div class="text-lg font-bold text-purple-800 mb-4">💡 Demonstração Prática</div>
+    <div class="text-sm text-gray-600 space-y-2">
+      <div>1. 🌐 Acessar KleverScan.org</div>
+      <div>2. 🔍 Buscar por hash de transação</div>
+      <div>3. 📊 Analisar detalhes da transação</div>
+      <div>4. 👤 Explorar endereços de carteiras</div>
+      <div>5. 📈 Verificar estatísticas da rede</div>
+      <div>6. ⚡ Acompanhar status em tempo real</div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-8">
+  <div class="text-lg font-bold text-green-600">
+    🔬 Vamos explorar uma transação real juntos!
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# 💬 Momento Interativo - Segurança
+
+<div class="text-center space-y-6 mt-8">
+  <div class="text-2xl font-bold text-red-600">
+    🛡️ Quiz de Segurança
+  </div>
+  
+  <div class="grid grid-cols-2 gap-8">
+    <div class="space-y-4">
+      <div class="bg-blue-50 p-4 rounded-lg">
+        <div class="text-lg font-bold text-blue-800">❓ Perguntas Rápidas</div>
+        <div class="text-sm text-gray-600">
+          • Posso compartilhar minha seed phrase?<br/>
+          • Onde devo guardar meu backup?<br/>
+          • Como verificar se um site é oficial?<br/>
+          • O que fazer se perder acesso?
+        </div>
+      </div>
+    </div>
+    <div class="space-y-4">
+      <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="text-lg font-bold text-red-800">🚨 Cenários</div>
+        <div class="text-sm text-gray-600">
+          • Alguém pede sua seed phrase<br/>
+          • Link suspeito no WhatsApp<br/>
+          • "Suporte" pedindo acesso<br/>
+          • Oportunidade "imperdível"
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center mt-8">
+    <div class="text-lg font-bold klever-gradient-text">
+      🧠 Vamos testar seus conhecimentos de segurança!
+    </div>
+  </div>
+</div>
 
 ---
 layout: center
@@ -1311,56 +1841,6 @@ layout: center
   
   <div class="text-xl font-bold klever-gradient-text mt-12">
     Perguntas?
-  </div>
-</div>
-
----
-layout: center
----
-
-# Recursos Complementares
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="space-y-4">
-    <div class="bg-blue-50 p-4 rounded-lg">
-      <div class="text-lg font-bold text-blue-800">📖 Leituras Recomendadas</div>
-      <div class="text-sm text-gray-600">
-        • Mastering Bitcoin<br/>
-        • Ethereum Whitepaper<br/>
-        • DeFi Pulse Reports<br/>
-        • Web3 Foundation Papers
-      </div>
-    </div>
-    <div class="bg-green-50 p-4 rounded-lg">
-      <div class="text-lg font-bold text-green-800">🎓 Cursos Online</div>
-      <div class="text-sm text-gray-600">
-        • Coursera Blockchain<br/>
-        • MIT OpenCourseWare<br/>
-        • Udemy Smart Contracts<br/>
-        • YouTube Tutorials
-      </div>
-    </div>
-  </div>
-  
-  <div class="space-y-4">
-    <div class="bg-purple-50 p-4 rounded-lg">
-      <div class="text-lg font-bold text-purple-800">🛠️ Ferramentas Úteis</div>
-      <div class="text-sm text-gray-600">
-        • Remix IDE<br/>
-        • Truffle Suite<br/>
-        • Hardhat Framework<br/>
-        • OpenZeppelin
-      </div>
-    </div>
-    <div class="bg-orange-50 p-4 rounded-lg">
-      <div class="text-lg font-bold text-orange-800">🌐 Comunidades</div>
-      <div class="text-sm text-gray-600">
-        • Reddit r/ethereum<br/>
-        • Stack Overflow<br/>
-        • GitHub Discussions<br/>
-        • Twitter Web3 Community
-      </div>
-    </div>
   </div>
 </div>
 
