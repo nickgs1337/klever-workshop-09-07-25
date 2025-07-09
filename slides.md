@@ -17,26 +17,161 @@ themeConfig:
   primary: '#AA33B5'
 ---
 
-# <span style="background: linear-gradient(135deg, #E879F9 0%, #60A5FA 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 800;">Workshop Web3</span>
-## <span style="color: #FFFFFF;">Descobrindo o Mundo da Web Descentralizada</span>
+<style>
+.slidev-layout.cover {
+  background: linear-gradient(135deg, #0B0E27 0%, #1A1D3A 40%, #0F1629 100%) !important;
+}
 
-<div class="pt-8">
-  <div class="text-2xl font-bold mb-4" style="background: linear-gradient(135deg, #E879F9 0%, #60A5FA 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">3 Dias • 12 Horas</div>
-  <div class="text-lg" style="color: #D1D5DB;">
+.slidev-layout.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: 
+    radial-gradient(circle at 25% 25%, #AA33B5 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, #32CD32 2px, transparent 2px);
+  background-size: 60px 60px;
+  z-index: 0;
+}
+
+.cover-content {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-top: -10vh;
+}
+</style>
+
+<div class="cover-content">
+  
+  
+  <!-- Klever branding -->
+  <div class="mb-6">
+    <h1 style="
+      font-family: 'Montserrat', sans-serif;
+      font-size: 4rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #AA33B5 0%, #8A2BE2 50%, #32CD32 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    ">KLEVER</h1>
+    
+  <div style="
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #32CD32;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  ">BLOCKCHAIN WORKSHOP</div>
+  </div>
+  
+  <!-- Main title -->
+  <div class="mb-8">
+    <h2 style="
+      font-family: 'Lato', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 1rem;
+    ">Workshop Web3</h2>
+    
+  <p style="
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #B8BCC8;
+  ">Descobrindo o Mundo da Web Descentralizada</p>
+  </div>
+  
+  <!-- Duration badges -->
+  <div class="flex justify-center items-center gap-6 mb-8">
+    <div style="
+      background: linear-gradient(135deg, #1A1D3A 0%, #AA33B5 100%);
+      border: 2px solid #AA33B5;
+      padding: 0.75rem 2rem;
+      border-radius: 2rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #FFFFFF;
+    ">3 DIAS</div>
+    
+  <div style="color: #32CD32; font-size: 1.5rem;">●</div>
+  
+  <div style="
+    background: linear-gradient(135deg, #1A1D3A 0%, #8A2BE2 100%);
+    border: 2px solid #8A2BE2;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+  ">12 HORAS</div>
+  </div>
+  
+  <!-- Blockchain tech indicators -->
+  <div class="flex justify-center items-center gap-8 mb-8">
+    <div class="flex items-center gap-2">
+      <div style="color: #AA33B5; font-size: 1.2rem;">🔗</div>
+      <span style="
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #AA33B5;
+      ">KleverChain</span>
+    </div>
+  
+  <div class="flex items-center gap-2">
+    <div style="color: #32CD32; font-size: 1.2rem;">📝</div>
+    <span style="
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #32CD32;
+    ">Smart Contracts</span>
+  </div>
+  
+  <div class="flex items-center gap-2">
+    <div style="color: #AA33B5; font-size: 1.2rem;">⚡</div>
+    <span style="
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #AA33B5;
+    ">KVM</span>
+  </div>
+  </div>
+  
+  <!-- Tagline -->
+  <div style="
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #B8BCC8;
+    border-top: 1px solid rgba(170, 51, 181, 0.3);
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+  ">
     Uma jornada completa do conceito à implementação
   </div>
-</div>
-
-<div class="absolute bottom-6 right-6">
-  <div class="klever-card text-center">
-    <div class="text-sm font-bold klever-gradient-text">
-      Klever Blockchain Workshop 2025
-    </div>
-  </div>
+    
 </div>
 
 ---
-layout: center
+layout: cover
 class: text-center
 ---
 
@@ -668,20 +803,20 @@ layout: center
 <div class="grid grid-cols-2 gap-8 mt-8">
   <div class="space-y-4">
     <div class="bg-green-50 p-4 rounded-lg">
-      <div class="text-2xl font-bold text-green-600">$71.52B</div>
-      <div class="text-sm text-gray-600">Mercado Web3 projetado para 2032</div>
+      <div class="text-2xl font-bold text-green-600">$3.43T</div>
+      <div class="text-sm text-gray-600">Capitalização total do mercado cripto</div>
       <div class="text-xs mt-1">
-        <a href="https://www.fortunebusinessinsights.com/web-3-0-market-106574" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
-          *Fortune Business Insights, 2024
+        <a href="https://www.coingecko.com/en/global-charts" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
+          *CoinGecko, Jul 2025
         </a>
       </div>
     </div>
     <div class="bg-blue-50 p-4 rounded-lg">
-      <div class="text-2xl font-bold text-blue-600">47% CAGR</div>
-      <div class="text-sm text-gray-600">Crescimento anual composto</div>
+      <div class="text-2xl font-bold text-blue-600">560M</div>
+      <div class="text-sm text-gray-600">Usuários blockchain mundial</div>
       <div class="text-xs mt-1">
-        <a href="https://www.grandviewresearch.com/industry-analysis/web-3-0-market-report" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
-          *Grand View Research, 2024
+        <a href="https://www.demandsage.com/blockchain-statistics/" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
+          *DemandSage, 2024
         </a>
       </div>
     </div>
@@ -689,20 +824,20 @@ layout: center
   
   <div class="space-y-4">
     <div class="bg-purple-50 p-4 rounded-lg">
-      <div class="text-2xl font-bold text-purple-600">10M</div>
-      <div class="text-sm text-gray-600">Carteiras ativas diárias</div>
+      <div class="text-2xl font-bold text-purple-600">$214B</div>
+      <div class="text-sm text-gray-600">DeFi Total Value Locked</div>
       <div class="text-xs mt-1">
-        <a href="https://dappradar.com/blog/dapp-industry-report-q4-2024" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
-          *DappRadar, Q4 2024
+        <a href="https://cryptotvplus.com/2025/01/defi-tvl-surged-211-to-214b-in-2024-solana-jumped-2000/" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
+          *CryptoTVplus, Jan 2025
         </a>
       </div>
     </div> 
     <div class="bg-orange-50 p-4 rounded-lg">
-      <div class="text-2xl font-bold text-orange-600">50%</div>
-      <div class="text-sm text-gray-600">Crescimento de adoção em 3 anos</div>
+      <div class="text-2xl font-bold text-orange-600">$13.6B</div>
+      <div class="text-sm text-gray-600">Investimentos VC em 2024</div>
       <div class="text-xs mt-1">
-        <a href="https://www.chainalysis.com/reports/2024-geography-of-cryptocurrency/" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
-          *Chainalysis Report, 2024
+        <a href="https://cointelegraph.com/news/vc-roundup-crypto-funding-climbs-13-6-billion-2024" target="_blank" class="text-gray-500 no-underline" style="text-decoration: none; color: #6B7280;">
+          *Cointelegraph, 2024
         </a>
       </div>
     </div>
@@ -711,7 +846,7 @@ layout: center
 
 <div class="text-center mt-6">
   <div class="text-xs text-gray-500">
-    Fontes: Relatórios de mercado de empresas especializadas em análise blockchain e Web3
+    Fontes: CoinGecko, DemandSage, CryptoTVplus e CoinMarketCap - Dados atualizados para 2024-2025
   </div>
 </div>
 
@@ -1407,36 +1542,6 @@ pub trait TokenContract {
     💰 Manipulação segura de tokens
   </div>
 </div>
-
----
-layout: center
----
-
-# Testes Unitários
-
-```rust {1-5|7-12|14-20|all}
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use klever_sc_scenario::*;
-
-    #[test]
-    fn test_increment() {
-        let mut blockchain = BlockchainStateWrapper::new();
-        let contract = blockchain.create_sc_account(...);
-        
-        // Teste da função increment
-        blockchain.execute_tx(&owner, &contract, &rust_biguint!(0), |sc| {
-            sc.increment();
-        });
-        
-        // Verificação do resultado
-        blockchain.execute_query(&contract, |sc| {
-            assert_eq!(sc.count().get(), 1);
-        });
-    }
-}
-```
 
 ---
 layout: center
